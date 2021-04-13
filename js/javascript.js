@@ -11,6 +11,7 @@ $(function() {
             data: {
                 'question': $('.question_input').val()
             },
+            crossdomin: true,
             success: function(data) {
                 console.log(data);
                 $(".answer_output").html(data.data);
