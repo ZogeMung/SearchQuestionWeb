@@ -3,9 +3,10 @@ $(function() {
         $.ajax({
             type: 'post',
             url: 'http://cx.icodef.com/wyn-nb?v=2',
-            contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
+            // contentType: 'application/x-www-form-urlencoded;charset=UTF-8',
             headers: {
                 'Cache-Control': 'no-cache',
+                'max-age': '0',
                 'Authorization': ''
             },
             data: {
