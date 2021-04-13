@@ -2,4 +2,4 @@
 用来搜题
 
 
-PC版 https://github.com/ZogeMung/SearchQuestion
+PC端 https://github.com/ZogeMung/SearchQuestion
